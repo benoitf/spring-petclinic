@@ -15,3 +15,6 @@ components:
         - name: mavenrepo
           path: /root/.m2
       memoryLimit: 1536M
+  - name: mavenrepo
+    volume:
+      size: 1G
