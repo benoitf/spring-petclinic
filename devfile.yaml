@@ -1,6 +1,15 @@
 schemaVersion: 2.0.0
 metadata:
   name: spring-petclinic
+  attributes:
+   .vscode/extensions.json: |
+     {
+       // See https://go.microsoft.com/fwlink/?LinkId=827846
+       // for the documentation about the extensions.json format
+       "recommendations": [
+         "redhat.java"
+       ]
+     }
 projects:
   - name: spring-petclinic
     git:
@@ -18,12 +27,3 @@ components:
   - name: mavenrepo
     volume:
       size: 1G
-attributes:
-  .vscode/extensions.json: |
-     {
-       // See https://go.microsoft.com/fwlink/?LinkId=827846
-       // for the documentation about the extensions.json format
-       "recommendations": [
-         "redhat.java"
-       ]
-     }
