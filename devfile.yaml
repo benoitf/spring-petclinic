@@ -12,7 +12,7 @@ components:
     container:
       image: quay.io/eclipse/che-java11-maven:nightly
       volumeMounts:
-        - name: mavenrepo
+        - name: m2
           path: /root/.m2
       memoryLimit: 1536M
   - name: mavenrepo
